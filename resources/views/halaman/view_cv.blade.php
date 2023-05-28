@@ -15,7 +15,7 @@
                 <td align="center">No</td>
                 <td align="center">ID CV</td>
                 <td align="center">Nama CV</td>
-                <td align="center">hp</td>
+                <td align="center">Nomor HP</td>
                 <td align="center">Aksi</td>
             </tr>
         </thead>
@@ -53,7 +53,7 @@
 
                                             <p>
                                             <div class="form-group row">
-                                                <label for="hp" class="col-sm-4 col-form-label">HP</label>
+                                                <label for="hp" class="col-sm-4 col-form-label">Nomor HP</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" id="hp" name="hp" value="{{ $a->hp}}">
                                                 </div>
@@ -109,7 +109,7 @@
 
                         <p>
                         <div class="form-group row">
-                            <label for="hp" class="col-sm-4 col-form-label">HP</label>
+                            <label for="hp" class="col-sm-4 col-form-label">Nomor HP</label>
                             <div class="col-sm-8">
                                 <input type="text" class="form-control" id="hp" name="hp" placeholder="Masukan Nomor HP">
                             </div>

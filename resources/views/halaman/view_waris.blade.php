@@ -49,7 +49,7 @@
                                             <div class="form-group row">
                                                 <label for="id_waris" class="col-sm-4 col-form-label">Nama Waris</label>
                                                 <div class="col-sm-8">
-                                                    <input type="text" class="form-control" id="nama_waris" name="nama_waris" placeholder="Masukan Nama Waris">
+                                                    <input type="text" class="form-control" id="nama_waris" name="nama" placeholder="Masukan Nama Waris">
                                                 </div>
                                             </div>
 
@@ -113,7 +113,7 @@
                         <div class="form-group row">
                             <label for="id_waris" class="col-sm-4 col-form-label">Nama Waris</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="nama_waris" name="nama_waris" placeholder="Masukan Nama Waris">
+                                <input type="text" class="form-control" id="nama_waris" name="nama" placeholder="Masukan Nama Waris">
                             </div>
                         </div>
 

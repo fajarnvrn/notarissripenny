@@ -2,10 +2,10 @@
 @section('title', 'Tanah')
 
 @section('isihalaman')
-    <h3><center>Daftar Sertifikat Tanah</center></h3>
+    <h3><center>Daftar Tanah</center></h3>
     
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTanahTambah"> 
-        Tambah Data Sertifikat Tanah
+        Tambah Data Tanah
     </button>
 
     <p>

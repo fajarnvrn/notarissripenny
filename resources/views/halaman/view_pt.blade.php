@@ -15,8 +15,8 @@
                 <td align="center">No</td>
                 <td align="center">ID PT</td>
                 <td align="center">Kode PT</td>
-                <td align="center">Judul PT</td>
-                <td align="center">Pengarang</td>
+                <td align="center">Nama PT</td>
+                <td align="center">Modal</td>
                 <td align="center">Kategori</td>
                 <td align="center">Aksi</td>
             </tr>
@@ -57,7 +57,7 @@
 
                                             <p>
                                             <div class="form-group row">
-                                                <label for="judul" class="col-sm-4 col-form-label">Judul PT</label>
+                                                <label for="judul" class="col-sm-4 col-form-label">Nama PT</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" id="judul" name="judul" value="{{ $bk->judul}}">
                                                 </div>
@@ -65,7 +65,7 @@
 
                                             <p>
                                             <div class="form-group row">
-                                                <label for="pengarang" class="col-sm-4 col-form-label">Nama Pengarang</label>
+                                                <label for="pengarang" class="col-sm-4 col-form-label">Modal</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" id="pengarang" name="pengarang" value="{{ $bk->pengarang}}">
                                                 </div>
@@ -129,17 +129,17 @@
 
                         <p>
                         <div class="form-group row">
-                            <label for="judul" class="col-sm-4 col-form-label">Judul PT</label>
+                            <label for="judul" class="col-sm-4 col-form-label">Nama PT</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="judul" name="judul" placeholder="Masukan Judul PT">
+                                <input type="text" class="form-control" id="judul" name="judul" placeholder="Masukan Nama PT">
                             </div>
                         </div>
 
                         <p>
                         <div class="form-group row">
-                            <label for="pengarang" class="col-sm-4 col-form-label">Nama Pengarang</label>
+                            <label for="pengarang" class="col-sm-4 col-form-label">Modal</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control" id="pengarang" name="pengarang" placeholder="Masukan Nama Pengarang">
+                                <input type="text" class="form-control" id="pengarang" name="pengarang" placeholder="Masukan Modal">
                             </div>
                         </div>
 
